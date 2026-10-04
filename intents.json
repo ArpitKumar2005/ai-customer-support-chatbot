@@ -1,0 +1,58 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "keywords": ["hi", "hello", "hey", "namaste", "morning", "evening"],
+      "responses": ["Hello! Welcome to StyleHub support. How can I help you today?", "Hi there! What can I help you with?"]
+    },
+    {
+      "tag": "order_status",
+      "keywords": ["order", "track", "tracking", "status", "where", "delivery"],
+      "responses": ["You can track your order from My Orders > Track Order. You will also get an SMS with the tracking link."]
+    },
+    {
+      "tag": "shipping",
+      "keywords": ["shipping", "ship", "deliver", "days", "charges", "free"],
+      "responses": ["Standard delivery takes 3-5 working days. Shipping is free on orders above Rs. 499."]
+    },
+    {
+      "tag": "refund",
+      "keywords": ["refund", "money", "cancel", "cancellation"],
+      "responses": ["Refunds are processed within 5-7 working days to your original payment method after we receive the returned item."]
+    },
+    {
+      "tag": "return",
+      "keywords": ["return", "replace", "replacement", "exchange", "damaged", "wrong"],
+      "responses": ["You can return or replace an item within 7 days of delivery. Go to My Orders > Return Item."]
+    },
+    {
+      "tag": "payment",
+      "keywords": ["payment", "pay", "upi", "card", "cod", "cash"],
+      "responses": ["We accept UPI, debit/credit cards, net banking and Cash on Delivery."]
+    },
+    {
+      "tag": "timing",
+      "keywords": ["time", "timing", "open", "hour", "working", "support"],
+      "responses": ["Our support team is available Monday to Saturday, 9 AM to 8 PM."]
+    },
+    {
+      "tag": "contact",
+      "keywords": ["contact", "call", "phone", "email", "number", "human", "agent"],
+      "responses": ["You can email us at support@StyleHub.com or call 1800-123-456 (toll free)."]
+    },
+    {
+      "tag": "thanks",
+      "keywords": ["thanks", "thank", "thankyou", "helpful", "great"],
+      "responses": ["You're welcome! Is there anything else I can help you with?"]
+    },
+    {
+      "tag": "goodbye",
+      "keywords": ["bye", "goodbye", "later", "exit", "quit"],
+      "responses": ["Goodbye! Have a great day."]
+    }
+  ],
+  "fallback": [
+    "Sorry, I did not understand that. Could you rephrase your question?",
+    "I am not sure about that yet. Try asking about orders, refunds, shipping or payments."
+  ]
+}
