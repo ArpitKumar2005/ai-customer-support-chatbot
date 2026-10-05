@@ -48,4 +48,4 @@ ai-chatbot/
 Add a new block in `intents.json` with a `tag`, `keywords` and `responses`.
 
 ## Author
-Your Name - BCA Student
+Arpit Kumar
